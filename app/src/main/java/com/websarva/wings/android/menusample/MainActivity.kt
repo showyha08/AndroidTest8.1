@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private val _from = arrayOf("name", "price")
 
     //SimpleAdapterの第5引数toに使用するプロパティ
-    private val _to = intArrayOf(R.id.tvMenuNameRow, R.id.tvMenuNameRow)
+    private val _to = intArrayOf(R.id.tvMenuNameRow, R.id.tvMenuPriceRow)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
